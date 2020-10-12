@@ -1,0 +1,86 @@
+tunes:
+
+ - name: Congress Reel
+   url: www/congress.jpg
+   genre: Irish
+   timeSignature: 4/4
+
+ - name: Earl's Chair
+   url: www/earlschair.jpg
+   genre: Irish
+   timeSignature: 4/4
+
+ - name: Mulqueen's
+   url: www/mulqueens.jpg
+   genre: Irish
+   timeSignature: 4/4
+   
+ - name: Traveler's
+   url: www/travelers.jpg
+   genre: Irish
+   timeSignature: 4/4
+   
+ - name: Blarney Pilgrim
+   url: www/blarney_pilgrim.jpg
+   genre: Irish
+   timeSignature: 6/8
+ 
+ - name: Champion
+   url: www/champion.jpg
+   genre: Irish
+   timeSignature: 6/8
+ 
+ - name: Geese in the Bog
+   url: www/geese_in_the_bog.jpg
+   genre: Irish
+   timeSignature: 6/8
+ 
+ - name: Leitrim Fancy
+   url: www/leitrim_fancy.jpg
+   genre: Irish
+   timeSignature: 6/8
+   
+ - name: Belfast Hornpipe
+   url: www/belfast_hornpipe.jpg
+   genre: Irish
+   timeSignature: lilting 4/4
+   
+ - name: Garrett Barry's
+   url: www/garrett_barrys.jpg
+   genre: Irish
+   timeSignature: lilting 4/4
+     
+ - name: After You've Gone
+   url: www/after_youve_gone.jpg
+   genre: swing
+   timeSignature: 4/4
+    
+ - name: Ain't Misbehavin'
+   url: www/aint_misbehavin.jpg
+   genre: swing
+   timeSignature: 4/4
+ 
+ - name: All of Me
+   url: www/all_of_me.jpg
+   genre: swing
+   timeSignature: 4/4
+ 
+ - name: All the Things You Are
+   url: www/all_the_things_you_are.jpg
+   genre: swing
+   timeSignature: 4/4
+     
+ - name: Gentle Rain
+   url: www/gentle_rain.jpg
+   genre: latin
+   timeSignature: 4/4
+    
+ - name: Mambo Inn
+   url: www/mambo_inn.jpg
+   genre: latin
+   timeSignature: 4/4
+ 
+ - name: Manha de Carnival
+   url: www/manha_de_carnival.jpg
+   genre: latin
+   timeSignature: 4/4
