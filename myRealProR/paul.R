@@ -17,7 +17,6 @@ tbl.config <- do.call(rbind,
 #--------------------------------------------------------------------------------
 
 ui <- fluidPage(
-  #useShinyjs(),
   titlePanel("myRealPro"),
   sidebarLayout(
 
@@ -50,9 +49,7 @@ ui <- fluidPage(
         inputId = "latinSelector",
         label = "Latin",
         choices = c("no selection", subset(tbl.config, genre=="latin")$name),
-        selected = NULL),
-
-      actionButton("clear", "Clear")
+        selected = NULL)
 
     ), # sbp
 
