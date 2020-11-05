@@ -30,6 +30,7 @@ server <- function(input,output) {
     choice <- sample(1:9, 1)
     palabraChoice <- names(cocinaVocab[choice])
     palabraRe(palabraChoice)
+    traducirRe("")
     })
 
   observeEvent(input$traducir, {
@@ -37,11 +38,6 @@ server <- function(input,output) {
     palabraTraducir <- cocinaVocab[[palabraRe()]]
     traducirRe(palabraTraducir)
     })
-
-  observeEvent(input$reajustar, {
-     palabraRe("")
-     traducirRe("")
-     })
 
   output$palabraOutput <- renderText(palabraRe())
   output$traducirOutput <- renderText(traducirRe())
