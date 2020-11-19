@@ -1,4 +1,3 @@
-# the image updates when the selectInput changes, but the other info does not
 
 library(shiny)
 library(yaml)
@@ -33,44 +32,55 @@ ui <- fluidPage(
     mainPanel(
       div(uiOutput("recipePicOutput"), align = "center"),
       br(),
-      div(uiOutput("recipeOutput"),
-          h3(uiOutput("recipeNameOutput"), align = "center"),
-          br(),
-          h5(uiOutput("recipeIngredientsOutput"), align = "center"),
-          br(),
-          h5(uiOutput("recipeDirectionsOutput"), align = "center"),
-      )
+      h3(uiOutput("recipeNameOutput"), align = "center"),
+      br(),
+      h5(uiOutput("recipeIngredientsOutput"), align = "center"),
+      br(),
+      h5(uiOutput("recipeDirectionsOutput"), align = "center"),
+      
     )
   )
 )
 
 server <- function(input, output, session){
   
+  itemPic <- reactiveVal()
+  itemName <- reactiveVal()
+  itemIng <- reactiveVal()
+  itemDir <- reactiveVal()
+  
   output$recipePicOutput <- renderUI({
-    recipeName <- input$recipes
-    if(recipeName != ""){
-      itemPic <- subset(tbl.config, name==recipeName)$pic
-      tags$img(src=itemPic, width=500)
-    }
+    tags$img(src=itemPic(), width=500)
   })
   
-  output$recipeOutput <- renderUI({
+  output$recipeNameOutput <- renderUI(itemName())
+  
+  output$recipeIngredientsOutput <- renderUI(itemIng())
+  
+  output$recipeDirectionsOutput <- renderUI(itemDir())
+  
+  observeEvent(input$recipes, ignoreInit=TRUE, {
     recipeName <- input$recipes
-    
-    if(recipeName != ""){
-      itemName <- subset(tbl.config, name==recipeName)$name
-      output$recipeNameOutput <- renderUI(itemName)
-    }
-    
-    if(recipeName != ""){
-      itemIng <- subset(tbl.config, name==recipeName)$ingredients
-      output$recipeIngredientsOutput <- renderUI(itemIng)
-    }
-    
-    if(recipeName != ""){
-      itemDir <- subset(tbl.config, name==recipeName)$directions
-      output$recipeDirectionsOutput <- renderUI(itemDir)
-    }
+    itemPIC <- subset(tbl.config, name==recipeName)$pic
+    itemPic(itemPIC)
+  })
+  
+  observeEvent(input$recipes, ignoreInit=TRUE, {
+    recipeName <- input$recipes
+    itemNAME <- subset(tbl.config, name==recipeName)$name
+    itemName(itemNAME)
+  })
+  
+  observeEvent(input$recipes, ignoreInit=TRUE, {
+    recipeName <- input$recipes
+    itemING <- subset(tbl.config, name==recipeName)$ingredients
+    itemIng(itemING)
+  })
+  
+  observeEvent(input$recipes, ignoreInit=TRUE, {
+    recipeName <- input$recipes
+    itemDIR <- subset(tbl.config, name==recipeName)$directions
+    itemDir(itemDIR)
   })
 }
 
