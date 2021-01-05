@@ -1,86 +1,57 @@
-recipes: 
+recipes:
 
   - name: Biscuits
-    pic: www/breakfast/biscuits.jpg
-    ingredients: biscuits ingredients text goes here
-    directions: biscuits directions text goes here
+    file: www/breakfast/biscuits.html
     category: breakfast
     
   - name: Blueberry Pie
-    pic: www/dessert/blueberry_pie.jpg
-    ingredients: blueberry pie ingredients text goes here
-    directions: blueberry pie directions text goes here
+    file: www/dessert/blueberry_pie.html
     category: dessert
     
   - name: Corn Muffins
-    pic: www/dinner/corn_muffins.jpg
-    ingredients: corn muffins ingredients text goes here
-    directions: corn muffins directions text goes here
+    file: www/dinner/corn_muffins.html
     category: dinner
     
   - name: Hummus
-    pic: www/lunch/hummus.jpg
-    ingredients: hummus ingredients text goes here
-    directions: hummus directions text goes here
+    file: www/lunch/hummus.html
     category: lunch
     
   - name: Lentil Soup
-    pic: www/dinner/lentil_soup.jpg
-    ingredients: lentil soup ingredients text goes here
-    directions: lentil soup directions text goes here
+    file: www/dinner/lentil_soup.html
     category: dinner
     
   - name: Mac and Cheese
-    pic: www/dinner/mac_n_cheese.jpg
-    ingredients: mac and cheese ingredients text goes here
-    directions: mac and cheese directions text goes here
+    file: www/dinner/mac_n_cheese.html
     category: dinner
     
   - name: Oatmeal Raisin Cookies
-    pic: www/dessert/oatmeal_raisin_cookies.jpg
-    ingredients: cookies ingredients text goes here
-    directions: cookies directions text goes here
+    file: www/dessert/oatmeal_raisin_cookies.html
     category: dessert
     
   - name: Pancakes
-    pic: www/breakfast/pancakes.jpg
-    ingredients: pancakes ingredients text goes here
-    directions: pancakes directions text goes here
+    file: www/breakfast/pancakes.html
     category: breakfast
     
   - name: Panini
-    pic: www/lunch/panini.jpg
-    ingredients: panini ingredients text goes here
-    directions: panini directions text goes here
+    file: www/lunch/panini.html
     category: lunch
   
   - name: Plum Torte
-    pic: www/dessert/plum_torte.jpg
-    ingredients: plum torte ingredients text goes here
-    directions: plum torte directions text goes here
+    file: www/dessert/plum_torte.html
     category: dessert
     
   - name: Pizza
-    pic: www/dinner/pizza.jpg
-    ingredients: pizza ingredients text goes here
-    directions: pizza directions text goes here
+    file: www/dinner/pizza.html
     category: dinner
     
   - name: Tomato Soup
-    pic: www/dinner/tomato_soup.jpg
-    ingredients: tomato soup ingredients text goes here
-    directions: tomato soup directions text goes here
+    file: www/dinner/tomato_soup.html
     category: dinner
     
   - name: Veggie Burger
-    pic: www/dinner/veggie_burger.jpg
-    ingredients: veggie burger ingredients text goes here
-    directions: veggie burger directions text goes here
+    file: www/dinner/veggie_burger.html
     category: dinner
 
   - name: Waffles
-    pic: www/breakfast/waffles.jpg
-    ingredients: waffles ingredients text goes here
-    directions: waffles directions text goes here
+    file: www/breakfast/waffles.html
     category: breakfast
-      

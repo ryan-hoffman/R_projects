@@ -1,0 +1,70 @@
+/** {
+  margin: 0px;
+  padding: 0px;
+}
+
+.wrapper {
+  margin: 0 auto;
+  width: 600px;
+} */
+
+.image-container {
+  display: flex;
+  justify-content: center;
+}
+
+.image {
+  border: 5px black solid;
+  padding: 5px;
+  width: 350px;
+  justify-content: center;
+}
+
+.recipe-name-container {
+  display: flex;
+  justify-content: center;
+}
+
+.recipe-name {
+  font-family: 'Architects Daughter', cursive;
+}
+
+.ingredients-container {
+  display: flex;
+  justify-content: center;
+  width:100%;
+}
+
+.ing-left {
+  list-style-type: none;
+  font-family: 'Architects Daughter', cursive;
+  line-height: 0.75;
+  padding-right: 25px;
+}
+
+.ing-right {
+  list-style-type: none;
+  font-family: 'Architects Daughter', cursive;
+  line-height: 0.75;
+  padding-left: 25px;
+}
+
+.directions-container {
+  display: flex;
+  justify-content: center;
+}
+
+.dir-list {
+  font-family: 'Architects Daughter', cursive;
+  width: 500px;
+}
+
+.blurb-container {
+  display:flex;
+  justify-content: center;
+}
+
+.blurb {
+  font-family: 'Architects Daughter', cursive;
+  width: 500px;
+}
