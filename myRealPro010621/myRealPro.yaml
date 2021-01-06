@@ -1,0 +1,656 @@
+tunes:
+
+ - name: After You've Gone
+   url: www/after_youve_gone.jpeg
+   genre: swing
+   timeSignature: 4/4
+
+ - name: Ain't Misbehavin'
+   url: www/aint_misbehavin.jpeg
+   genre: swing
+   timeSignature: 4/4
+
+ - name: All of Me
+   url: www/all_of_me.jpeg
+   genre: swing
+   timeSignature: 4/4
+
+ - name: Anniversary Song
+   url: www/anniversary_song.jpeg
+   genre: swing
+   timeSignature: 4/4
+   
+ - name: All the Things You Are
+   url: www/all_the_things_you_are.jpeg
+   genre: swing
+   timeSignature: 4/4
+
+ - name: Autumn Leaves
+   url: www/autumn_leaves.jpeg
+   genre: swing
+   timeSignature: 4/4
+
+ - name: Beautiful Love
+   url: www/beautiful_love.jpeg
+   genre: swing
+   timeSignature: 4/4
+   
+ - name: Belfast Hornpipe
+   url: www/belfast_hornpipe.jpeg
+   genre: Irish
+   timeSignature: lilting 4/4
+
+ - name: Belleville
+   url: www/belleville.jpeg
+   genre: swing
+   timeSignature: 4/4
+
+ - name: Bernie's Tune
+   url: www/bernies_tune.jpeg
+   genre: swing
+   timeSignature: 4/4
+   
+ - name: Blackthorn Stick
+   url: www/blackthorn_stick.jpeg
+   genre: Irish
+   timeSignature: 4/4
+   
+ - name: Blarney Pilgrim
+   url: www/blarney_pilgrim.jpeg
+   genre: Irish
+   timeSignature: 6/8
+
+ - name: Blues Clair
+   url: www/blues_clair.jpeg
+   genre: swing
+   timeSignature: 4/4
+   
+ - name: Boil the Breakfast Early
+   url: www/boil_the_breakfast_early.jpeg
+   genre: Irish
+   timeSignature: 4/4
+   
+ - name: Bossa Dorado
+   url: www/bossa_dorado.jpeg
+   genre: latin
+   timeSignature: 4/4
+   
+ - name: Butterfly
+   url: www/butterfly.jpeg
+   genre: Irish
+   timeSignature: 6/8
+   
+ - name: Calum's Road
+   url: www/calums_road.jpeg
+   genre: Irish
+   timeSignature: strath 4/4
+   
+ - name: Catharsis
+   url: www/catharsis.jpeg
+   genre: Irish
+   timeSignature: 4/4
+   
+ - name: Charlie Hunter
+   url: www/charlie_hunter.jpeg
+   genre: Irish
+   timeSignature: 6/8
+   
+ - name: Chez Jaquet - chord chart
+   url: www/chez_jaquet_chord_chart.jpeg
+   genre: musette
+   timeSignature: 3/4
+   
+ - name: Clair de Lune
+   url: www/clair_de_lune.jpeg
+   genre: swing
+   timeSignature: 4/4
+   
+ - name: Concertina
+   url: www/concertina_reel.jpeg
+   genre: Irish
+   timeSignature: 4/4
+   
+ - name: Congress
+   url: www/congress.jpeg
+   genre: Irish
+   timeSignature: 4/4
+   
+ - name: Connaughtman's Rambles
+   url: www/connaughtmans_rambles.jpeg
+   genre: Irish
+   timeSignature: 6/8
+   
+ - name: Cook in the Kitchen
+   url: www/cook_in_the_kitchen.jpeg
+   genre: Irish
+   timeSignature: 6/8
+
+ - name: Coquette
+   url: www/coquette.jpeg
+   genre: swing
+   timeSignature: 4/4
+
+ - name: Crazy
+   url: www/crazy.jpeg
+   genre: swing
+   timeSignature: 4/4
+   
+ - name: Crowley's
+   url: www/crowleys.jpeg
+   genre: Irish
+   timeSignature: 4/4
+
+ - name: Danse Norvegienne
+   url: www/danse_norvegienne.jpeg
+   genre: swing
+   timeSignature: 4/4
+
+ - name: Darn That Dream
+   url: www/darn_that_dream.jpeg
+   genre: swing
+   timeSignature: 4/4
+   
+ - name: Dinette
+   url: www/dinette.jpeg
+   genre: swing
+   timeSignature: 4/4
+
+ - name: Djangology
+   url: www/djangology.jpeg
+   genre: swing
+   timeSignature: 4/4
+   
+ - name: Do Nothing 'til You Hear From Me
+   url: www/do_nothing_til_you_hear_from_me.jpeg
+   genre: swing
+   timeSignature: 4/4
+   
+ - name: Do You Know What It Means to Miss New Orleans
+   url: www/do_you_know_what_it_means_to_miss_new_orleans.jpeg
+   genre: swing
+   timeSignature: 4/4
+
+ - name: Don't Blame Me
+   url: www/dont_blame_me.jpeg
+   genre: swing
+   timeSignature: 4/4
+   
+ - name: Douce Ambiance
+   url: www/douce_ambiance.jpeg
+   genre: swing
+   timeSignature: 4/4
+
+ - name: Dream a Little Dream Me
+   url: www/dream_a_little_dream_of_me.jpeg
+   genre: swing
+   timeSignature: 4/4
+
+ - name: Dream of You
+   url: www/dream_of_you.jpeg
+   genre: swing
+   timeSignature: 4/4
+   
+ - name: Drowsy Maggie
+   url: www/drowsy_maggie.jpeg
+   genre: Irish
+   timeSignature: 4/4
+   
+ - name: Drunken Landlady
+   url: www/drunken_landlady.jpeg
+   genre: Irish
+   timeSignature: 4/4
+   
+ - name: Earl's Chair
+   url: www/earls_chair.jpeg
+   genre: Irish
+   timeSignature: 4/4
+
+ - name: Embraceable You
+   url: www/embraceable_you.jpeg
+   genre: swing
+   timeSignature: 4/4
+
+ - name: Exactly Like You
+   url: www/exactly_like_you.jpeg
+   genre: swing
+   timeSignature: 4/4
+   
+ - name: Fermoy Lasses
+   url: www/fermoy_lasses.jpeg
+   genre: Irish
+   timeSignature: 4/4
+
+ - name: Fly Me to the Moon
+   url: www/fly_me_to_the_moon.jpeg
+   genre: swing
+   timeSignature: 4/4
+   
+ - name: For Sephora
+   url: www/for_sephora.jpeg
+   genre: latin
+   timeSignature: 4/4
+   
+ - name: Foxhunter's
+   url: www/foxhunters.jpeg
+   genre: Irish
+   timeSignature: 6/8
+   
+ - name: Gallow Glass
+   url: www/gallow_glass.jpeg
+   genre: Irish
+   timeSignature: 6/8
+   
+ - name: Garrett Barry's
+   url: www/garrett_barrys.jpeg
+   genre: Irish
+   timeSignature: lilting 4/4
+   
+ - name: Geese in the Bog
+   url: www/geese_in_the_bog.jpeg
+   genre: Irish
+   timeSignature: 6/8
+
+ - name: Gentle Rain
+   url: www/gentle_rain.jpeg
+   genre: latin
+   timeSignature: 4/4
+
+ - name: Georgia On My Mind - Carmichael arrangement
+   url: www/georgia_on_my_mind_hc.jpeg
+   genre: swing
+   timeSignature: 4/4
+   
+ - name: Georgia On My Mind - Charles arrangement
+   url: www/georgia_on_my_mind_rc.jpeg
+   genre: swing
+   timeSignature: 4/4
+   
+ - name: Guilderoy
+   url: www/guilderoy.jpeg
+   genre: Irish
+   timeSignature: 4/4
+
+ - name: Guilty
+   url: www/guilty.jpeg
+   genre: swing
+   timeSignature: 4/4
+   
+ - name: Hand Me Down the Tackle
+   url: www/hand_me_down_the_tackle.jpeg
+   genre: Irish
+   timeSignature: 4/4
+
+ - name: Historia de un Amor
+   url: www/historia_de_un_amor.jpeg
+   genre: latin
+   timeSignature: 4/4
+
+ - name: How High the Moon
+   url: www/how_high_the_moon.jpeg
+   genre: swing
+   timeSignature: 4/4
+
+ - name: Hungaria
+   url: www/hungaria.jpeg
+   genre: swing
+   timeSignature: 4/4
+   
+ - name: I Can't Give You Anything But Love
+   url: www/i_cant_give_you_anything_but_love.jpeg
+   genre: swing
+   timeSignature: 4/4
+ 
+ - name: I'll Be Seeing You
+   url: www/ill_be_seeing_you.jpeg
+   genre: swing
+   timeSignature: 4/4
+
+ - name: I'll Never Be the Same
+   url: www/ill_never_be_the_same.jpeg
+   genre: swing
+   timeSignature: 4/4
+
+ - name: I'll See You in My Dreams
+   url: www/ill_see_you_in_my_dreams.jpeg
+   genre: swing
+   timeSignature: 4/4
+   
+ - name: I'm Confessin'
+   url: www/im_confessin.jpeg
+   genre: swing
+   timeSignature: 4/4
+   
+ - name: If I Had You
+   url: www/if_i_had_you.jpeg
+   genre: swing
+   timeSignature: 4/4
+
+ - name: In a Sentimental Mood
+   url: www/in_a_sentimental_mood.jpeg
+   genre: swing
+   timeSignature: 4/4
+   
+ - name: J'attendrai
+   url: www/jattendrai.jpeg
+   genre: swing
+   timeSignature: 4/4
+   
+ - name: Java Manouche
+   url: www/java_manouche.jpeg
+   genre: musette
+   timeSignature: 3/4
+   
+ - name: Julia Delaney
+   url: www/julia_delaney.jpeg
+   genre: Irish
+   timeSignature: 4/4
+   
+ - name: Kesh Jig
+   url: www/kesh_jig.jpeg
+   genre: Irish
+   timeSignature: 6/8
+   
+ - name: Leitrim Fancy
+   url: www/leitrim_fancy.jpeg
+   genre: Irish
+   timeSignature: 6/8
+
+ - name: Let's Fall in Love
+   url: www/lets_fall_in_love.jpeg
+   genre: swing
+   timeSignature: 4/4
+
+ - name: Lullaby of Birdland
+   url: www/lullaby_of_birdland.jpeg
+   genre: swing
+   timeSignature: 4/4
+
+ - name: Lullaby of the Leaves
+   url: www/lullaby_of_the_leaves.jpeg
+   genre: swing
+   timeSignature: 4/4
+
+ - name: Lulu Swing
+   url: www/lulu_swing.jpeg
+   genre: swing
+   timeSignature: 4/4
+
+ - name: Mambo Inn
+   url: www/mambo_inn.jpeg
+   genre: latin
+   timeSignature: 4/4
+
+ - name: Manha de Carnival
+   url: www/manha_de_carnival.jpeg
+   genre: latin
+   timeSignature: 4/4
+
+ - name: Memories of You
+   url: www/memories_of_you.jpeg
+   genre: swing
+   timeSignature: 4/4
+   
+ - name: Miss Monaghan's
+   url: www/miss_monaghans.jpeg
+   genre: Irish
+   timeSignature: 4/4
+
+ - name: Moon Glow
+   url: www/moon_glow.jpeg
+   genre: swing
+   timeSignature: 4/4
+   
+ - name: Mulqueen's
+   url: www/mulqueens.jpeg
+   genre: Irish
+   timeSignature: 4/4
+
+ - name: Nature Boy
+   url: www/nature_boy.jpeg
+   genre: swing
+   timeSignature: 4/4
+
+ - name: Noto Swing
+   url: www/noto_swing.jpeg
+   genre: swing
+   timeSignature: 4/4
+
+ - name: Nuages
+   url: www/nuages.jpeg
+   genre: swing
+   timeSignature: 4/4
+
+ - name: Ou Es Tu Mon Amour
+   url: www/ou_es_tu_mon_amour.jpeg
+   genre: swing
+   timeSignature: 4/4
+   
+ - name: Out of Nowhere
+   url: www/out_of_nowhere.jpeg
+   genre: swing
+   timeSignature: 4/4
+   
+ - name: Out on the Ocean
+   url: www/out_on_the_ocean.jpeg
+   genre: Irish
+   timeSignature: 6/8
+
+ - name: Paquito
+   url: www/paquito.jpeg
+   genre: swing
+   timeSignature: 4/4
+   
+ - name: Peeler's Jacket
+   url: www/peelers_jacket.jpeg
+   genre: Irish
+   timeSignature: 4/4
+
+ - name: Pennies From Heaven
+   url: www/pennies_from_heaven.jpeg
+   genre: swing
+   timeSignature: 4/4
+
+ - name: Perdido
+   url: www/perdido.jpeg
+   genre: swing
+   timeSignature: 4/4
+
+ - name: Pierrine
+   url: www/pierrine.jpeg
+   genre: swing
+   timeSignature: 4/4
+
+ - name: Polka Dots and Moonbeams
+   url: www/polka_dots_and_moonbeams.jpeg
+   genre: swing
+   timeSignature: 4/4
+   
+ - name: Pull the Knife and Stick It Again
+   url: www/pull_the_knife_and_stick_it_again.jpeg
+   genre: Irish
+   timeSignature: 6/8
+
+ - name: R Vingt Six
+   url: www/r_vingt_six.jpeg
+   genre: swing
+   timeSignature: 4/4
+   
+ - name: Ramblin' Pitchfork
+   url: www/ramblin_pitchfork.jpeg
+   genre: Irish
+   timeSignature: 6/8
+
+ - name: Recado Bossa Nova
+   url: www/recado_bossa_nova.jpeg
+   genre: latin
+   timeSignature: 4/4
+   
+ - name: Red Haired Boy
+   url: www/red_haired_boy.jpeg
+   genre: Irish
+   timeSignature: 4/4
+
+ - name: Robbins Nest
+   url: www/robbins_nest.jpeg
+   genre: swing
+   timeSignature: 4/4
+   
+ - name: Rose in the Heather
+   url: www/rose_in_the_heather.jpeg
+   genre: Irish
+   timeSignature: 6/8
+
+ - name: Rose Room
+   url: www/rose_room.jpeg
+   genre: swing
+   timeSignature: 4/4
+   
+ - name: Scatter the Mud
+   url: www/scatter_the_mud.jpeg
+   genre: Irish
+   timeSignature: 6/8
+
+ - name: September Song
+   url: www/september_song.jpeg
+   genre: swing
+   timeSignature: 4/4
+   
+ - name: Seul Ce Soir
+   url: www/seul_ce_soir.jpeg
+   genre: Swing
+   timeSignature: 4/4
+
+ - name: Si Tu Savais
+   url: www/si_tu_savais.jpeg
+   genre: swing
+   timeSignature: 4/4
+   
+ - name: Skylark
+   url: www/skylark.jpeg
+   genre: swing
+   timeSignature: 4/4
+   
+ - name: Sligo Maid
+   url: www/sligo_maid.jpeg
+   genre: Irish
+   timeSignature: 4/4
+
+ - name: Softly as a Morning Sunrise
+   url: www/softly_as_a_morning_sunrise.jpeg
+   genre: swing
+   timeSignature: 4/4
+
+ - name: Somewhere Over the Rainbow
+   url: www/somewhere_over_the_rainbow.jpeg
+   genre: swing
+   timeSignature: 4/4
+   
+ - name: St. Kilda Wedding
+   url: www/st_kilda_wedding.jpeg
+   genre: Irish
+   timeSignature: 4/4
+
+ - name: St. Thomas
+   url: www/st_thomas.jpeg
+   genre: latin
+   timeSignature: 4/4
+
+ - name: Stompin' at the Savoy
+   url: www/stompin_at_the_savoy.jpeg
+   genre: swing
+   timeSignature: 4/4
+   
+ - name: Stool of Repentence
+   url: www/stool_of_repentence.jpeg
+   genre: Irish
+   timeSignature: 6/8
+
+ - name: Summertime
+   url: www/summertime.jpeg
+   genre: swing
+   timeSignature: 4/4
+   
+ - name: Swallowtail
+   url: www/swallowtail.jpeg
+   genre: Irish
+   timeSignature: 6/8
+   
+ - name: Sweet Georgia Brown
+   url: www/sweet_georgia_brown.jpeg
+   genre: swing
+   timeSignature: 4/4
+
+ - name: Sweet Lorraine
+   url: www/sweet_lorraine.jpeg
+   genre: swing
+   timeSignature: 4/4
+   
+ - name: Swing 39
+   url: www/swing_39.jpeg
+   genre: swing
+   timeSignature: 4/4
+   
+ - name: Swing Gitan
+   url: www/swing_gitan.jpeg
+   genre: swing
+   timeSignature: 4/4
+
+ - name: Suplique Pour Etre Enterre a la Plage de Sete
+   url: www/supplique_pour_etre_enterre_a_la_plage_de_sete.jpeg
+   genre: swing
+   timeSignature: 4/4
+
+ - name: Tangerine
+   url: www/tangerine.jpeg
+   genre: swing
+   timeSignature: 4/4
+
+ - name: Tea for Two
+   url: www/tea_for_two.jpeg
+   genre: swing
+   timeSignature: 4/4
+
+ - name: Tears
+   url: www/tears.jpeg
+   genre: swing
+   timeSignature: 4/4
+
+ - name: Ten Penny Bit
+   url: www/ten_penny_bit.jpeg
+   genre: Irish
+   timeSignature: 6/8
+   
+ - name: There'll Never Be Another You
+   url: www/therell_never_be_another_you.jpeg
+   genre: swing
+   timeSignature: 4/4
+   
+ - name: Time on My Hands
+   url: www/time_on_my_hands.jpeg
+   genre: swing
+   timeSignature: 4/4
+   
+ - name: Traveler's
+   url: www/travelers.jpeg
+   genre: Irish
+   timeSignature: 4/4
+   
+ - name: Troublant Bolero
+   url: www/troublant_bolero.jpeg
+   genre: latin
+   timeSignature: 4/4
+
+ - name: Undecided
+   url: www/undecided.jpeg
+   genre: swing
+   timeSignature: 4/4
+   
+ - name: Way You Look Tonight
+   url: www/way_you_look_tonight.jpeg
+   genre: swing
+   timeSignature: 4/4
+   
+ - name: Wind That Shakes the Barley
+   url: www/wind_that_shakes_the_barley.jpeg
+   genre: Irish
+   timeSignature: 4/4
