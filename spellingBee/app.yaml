@@ -1,0 +1,273 @@
+words:
+
+ - word: vaccine
+   pronunciation: vak-SEEN
+   wordOrigin: New Latin
+   partOfSpeech: noun
+   definition: A product that stimulates a person's immune system to fight disease or infection.
+   sentence: The oldest people exposed to the disease received the vaccine first.
+   level: one
+   index: 1
+   
+ - word: intelligent
+   pronunciation: in-TEL-i-juhnt
+   wordOrigin: Latin
+   partOfSpeech: adjective
+   definition: Having or showing intelligence; bright, clever, brilliant. 
+   sentence: Her essay was intelligent, but not very concise.
+   level: one
+   index: 2
+   
+ - word: misspell
+   pronunciation: mis-SPEL
+   wordOrigin: Old English
+   partOfSpeech: verb
+   definition: To spell a word incorrectly.
+   sentence: Some words are so easy to misspell!
+   level: one
+   index: 3
+   
+ - word: author 
+   pronunciation: AW-ther
+   wordOrigin: unknown
+   partOfSpeech: noun and verb
+   definition: A writer or creator, but usually refers to a writer of a book.
+   sentence: The author signed copies of the book after the lecture.
+   level: one
+   index: 4
+   
+ - word: pharaoh
+   pronunciation: FAIR-oh
+   wordOrigin: Hebrew
+   partOfSpeech: noun
+   definition: A ruler of ancient Egypt.
+   sentence: The pharaoh was buried in an extravagant tomb.
+   level: one
+   index: 5
+   
+ - word: separate
+   pronunciation: SEP-uh-reyt
+   wordOrigin: Latin
+   partOfSpeech: adjective or verb
+   definition: To divide or put apart.
+   sentence: She divided the marbles put them into two separate bags.
+   level: one
+   index: 6
+   
+ - word: unnecessary
+   pronunciation: uhn-NES-uh-ser-ee
+   wordOrigin: Latin
+   partOfSpeech: adjective
+   definition: Not needed, superfluous.
+   sentence: After the sun came out, our coats were unnecessary.
+   level: one
+   index: 7
+   
+ - word: liquefy
+   pronunciation: LIK-wuh-fahy
+   wordOrigin: Old French
+   partOfSpeech: verb
+   definition: A make into a liquid.
+   sentence: Some metals will liquefy when heated to extreme temperatures.
+   level: one
+   index: 8
+   
+ - word: conscience
+   pronunciation: KON-shuhns
+   wordOrigin: Middle English
+   partOfSpeech: noun
+   definition: An inner sense of what is right or wrong.
+   sentence: He had a guilty conscience and in the end, he turned himself in.
+   level: one
+   index: 9
+   
+ - word: broccoli
+   pronunciation: BROK-uh-lee, BROK-lee
+   wordOrigin: Italian
+   partOfSpeech: noun
+   definition: A green vegetable.
+   sentence: Of all vegetables, she liked broccoli the least.
+   level: one
+   index: 10
+   
+ - word: nauseous
+   pronunciation: NAW-shuhs, NAW-zee-uhs
+   wordOrigin: Latin
+   partOfSpeech: adjective
+   definition: To feel sick, inclined to vomit.
+   sentence: He felt nauseous after eating the rancid hummus.
+   level: two
+   index: 1
+   
+ - word: sherbet
+   pronunciation: SHUR-bit
+   wordOrigin: Persian
+   partOfSpeech: noun
+   definition: A frozen dessert made with fruit.
+   sentence: When given the choice, she always chose sherbet for dessert.
+   level: two
+   index: 2
+   
+ - word: dilate
+   pronunciation: DAHY-leyt
+   wordOrigin: Middle French
+   partOfSpeech: verb
+   definition: To become or make more open.
+   sentence: The doctor used a small flashlight to test if his pupils would dilate normally.
+   level: two
+   index: 3
+   
+ - word: gobbledegook
+   pronunciation: GOB-uhl-dee-gook
+   wordOrigin: Middle English
+   partOfSpeech: noun
+   definition: Nonsense or incoherent speech or writing.
+   sentence: Even though he spent hours preparing the essay, it was for the most part, gobbledegook.
+   level: two
+   index: 4
+   
+ - word: accommodate
+   pronunciation: uh-COM-uh-deyt
+   wordOrigin: Latin
+   partOfSpeech: verb
+   definition: Provide for the wishes or needs of.
+   sentence: She went way out of her way to accommodate her demanding mother-in-law.
+   level: two
+   index: 5
+   
+ - word: acknowledgment
+   pronunciation: ak-NOL-ij-muhnt
+   wordOrigin: Middle English
+   partOfSpeech: noun
+   definition: Recognition of the existence or truth of something.
+   sentence: She was finally given acknowledgment for the work she had done for the organization.
+   level: two
+   index: 6
+   
+ - word: canteloupe
+   pronunciation: KAN-tuh-lohp
+   wordOrigin: French
+   partOfSpeech: noun
+   definition: A type of melon that is usually orange or yellow
+   sentence: That canteloupe we bought at the farmer's market sure was good!
+   level: two
+   index: 7
+   
+ - word: chassis
+   pronunciation: CHAS-ee
+   wordOrigin: French
+   partOfSpeech: noun
+   definition: The frame, wheels and machinery of a motor vehicle.
+   sentence: The engine was shot, but the chassis was still in good condition.
+   level: two
+   index: 8
+   
+ - word: continuum
+   pronunciation: kuhn-TIN-yoo-uhm
+   wordOrigin: Latin
+   partOfSpeech: noun
+   definition: A continuous extent, series or whole.
+   sentence: She had always been facsinated by the space time continuum and secretly believed that time travel was possible.
+   level: two
+   index: 9
+   
+ - word: hemorrhage
+   pronunciation: HEM-er-ij, HEM-rij
+   wordOrigin: Latin
+   partOfSpeech: noun
+   definition: The occurrance of bleeding.
+   sentence: The patient suffered a cerebral hemorrhage.
+   level: two
+   index: 10
+   
+ - word: logorrhea
+   pronunciation: law-guh-REE-uh
+   wordOrigin: Greek
+   partOfSpeech: noun
+   definition: Excessively verbose in speech.
+   sentence: His tendency towards logorrhea did not help him in the debate.
+   level: three
+   index: 1
+   
+ - word: cymotrichous
+   pronunciation: sahy-MO-truh-kuhs
+   wordOrigin: Greek
+   partOfSpeech: adjective
+   definition: Having wavy hair
+   sentence: That particular group of people is known to be cymotrichous.
+   level: three
+   index: 2
+   
+ - word: euonym
+   pronunciation: YOO-oh-nim
+   wordOrigin: Greek
+   partOfSpeech: noun
+   definition: A particularly apt name
+   sentence: After learning about the species, I've decided that "killer whale" is not an appropriate euonym at all.
+   level: three
+   index: 3
+   
+ - word: vivisepulture
+   pronunciation: VIV-i-suh-puhl-cher
+   wordOrigin: Latin
+   partOfSpeech: noun
+   definition: The act of being buried alive.
+   sentence: The anthropologists suspected vivisepulture had occurred when they observed fingernail scratches on the underside of the casket lid.
+   level: three
+   index: 4
+   
+ - word: prospicience
+   pronunciation: PROH-spi-shee-uhns
+   wordOrigin: Latin
+   partOfSpeech: noun
+   definition: The act of looking forward, foresight.
+   sentence: If the captain would have had more prospicience, he might have seen the mutiny coming.
+   level: three
+   index: 5
+   
+ - word: eudaemonic
+   pronunciation: yoo-di-MON-ik
+   wordOrigin: Greek
+   partOfSpeech: adjective
+   definition: Pertaining or conducive to happiness.
+   sentence: In the film, the aliens had an eerie eudaemonic air.
+   level: three
+   index: 6
+   
+ - word: gnomonic
+   pronunciation: nom-MON-ik
+   wordOrigin: Latin and Greek
+   partOfSpeech: noun
+   definition: Of or relating to a sundial or gnomon.
+   sentence: If the captain would have had more prospicience, he might have seen the mutiny coming.
+   level: three
+   index: 7
+   
+ - word: synecdoche
+   pronunciation: si-NEK-duh-kee
+   wordOrigin: Latin
+   partOfSpeech: noun
+   definition: A figure of speech which a part of something represents the whole.
+   sentence: Wheels, when used to represent a car, is an example of synecdoche.
+   level: three
+   index: 8
+   
+ - word: psoriasis
+   pronunciation: suh-RAHY-uh-sis
+   wordOrigin: Greek
+   partOfSpeech: noun
+   definition: A common chronic, inflammatory skin disease.
+   sentence: His psoriasis really became profound in his old age.
+   level: three
+   index: 9
+   
+ - word: knaidlach
+   pronunciation: KNEYD-luhkh
+   wordOrigin: Middle German
+   partOfSpeech: noun
+   definition: A Yiddish dumpling, usually served in soup.
+   sentence: Her grandmother's knaidlach were the absolute best!
+   level: three
+   index: 10
+   
+   
