@@ -42,8 +42,6 @@ library(shinyWidgets)
 # use_googlefont()
 library(fresh)
 
-# addResourcePath("www", "www")
-
 config.file <- "app.yaml"
 config <- yaml.load(readLines(config.file))
 words <- config$words
@@ -125,6 +123,7 @@ ui <-
             uiOutput("wordOutput", style="font-size: 30px; 
                                               font-weight: bold;")),
         br(),
+        
         br(),
         div(id="content-container", 
             h5(id="pronunciation", "Pronunciation:"),
@@ -157,6 +156,7 @@ ui <-
         br(),
         actionButton("playIncorrectSound",
                      "Incorrect!"),
+        
         # not functioning at the moment
         uiOutput("playMusic")
       ),
@@ -233,7 +233,9 @@ server <- function(input, output, session) {
   })
   
   observeEvent(input$selectLevelThreeWord, ignoreInit=TRUE, {
+    
     choice <- sample(1:10, 1)
+    
     wordChoice <- subset(tbl.config, index==choice & level=="three")$word
     wordRe(wordChoice)
     
@@ -262,7 +264,6 @@ server <- function(input, output, session) {
       soundRe(soundFile),
       print("button clicked")
     )
-    
   })
 }
 
