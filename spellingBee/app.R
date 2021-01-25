@@ -24,6 +24,8 @@
 # radio buttons for level selection?
 # uiOutput vs textOutput
 # when is addResourcePath() necessary?
+# possibly make server code more efficient?
+# is config.file simply a variable or does the .file have a function?
 
 #------------------------------------------------------------------
 
