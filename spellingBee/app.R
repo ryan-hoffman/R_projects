@@ -44,6 +44,8 @@ library(shinyWidgets)
 # use_googlefont()
 library(fresh)
 
+addResourcePath("www", "www")
+
 config.file <- "app.yaml"
 config <- yaml.load(readLines(config.file))
 words <- config$words
@@ -55,7 +57,7 @@ tbl.config <- do.call(rbind,
 ui <-  
   fluidPage(
     # using separate css file ultimately might be better
-    # css adds modifies the layout, adds color, changes the font and makes some things display inline 
+    # css adds defines the layout, color, font and inline display 
     tags$head(tags$style("#word-container * {
                          display:inline;
                          } 
@@ -75,11 +77,20 @@ ui <-
                          #playIncorrectSound {
                          font-family: Yusei Magic, sans-serif;
                          }
-                         #playCorrectSound {
+                         #playCheers {
                          background-color: #c7fcdb;
                          }
-                         #playIncorrectSound {
+                         #playBoos {
                          background-color: #f7b2d0;
+                         }
+                          #playBillTell {
+                         background-color: #c56ef0;
+                         }
+                         #playHens {
+                         background-color: #fffa6e;
+                         }
+                         #playStarWars {
+                         background-color: #73c0ff;
                          }
                          #word {
                          padding-right: 100px;
@@ -118,6 +129,8 @@ ui <-
                      "Level 3")
       ),
       
+      # try https://stackoverflow.com/questions/39250200/rshiny-textoutput-and-paragraph-on-same-line
+      
       mainPanel(
         br(),
         div(id="word-container", 
@@ -148,19 +161,28 @@ ui <-
         br(),
         div(h5(id="example_sentence", "Example sentence:"), 
             uiOutput("exampleSentenceOutput", style="font-size: 20px; font-weight: bold;")),
-        br(),
         
         br(),
-        actionButton("playCorrectSound",
-                     "Correct!"),
         br(),
         
+        actionButton("playCheers",
+                     "Cheers"),
         br(),
-        actionButton("playIncorrectSound",
-                     "Incorrect!"),
-        
-        # not functioning at the moment
-        uiOutput("playMusic")
+        br(),
+        actionButton("playBoos",
+                     "Boos"),
+        br(),
+        br(),
+        actionButton("playBillTell",
+                     "Bill Tell"),
+        br(),
+        br(),
+        actionButton("playHens",
+                     "Hens"),
+        br(),
+        br(),
+        actionButton("playStarWars",
+                     "Disco Luke"),
       ),
     )
   )
@@ -175,7 +197,6 @@ server <- function(input, output, session) {
   partOfSpeechRe <- reactiveVal()
   definitionRe <- reactiveVal()
   sentenceRe <- reactiveVal()
-  soundRe <- reactiveVal()
   
   output$wordOutput = renderUI(wordRe())
   output$pronunciationOutput = renderUI(pronunciationRe())
@@ -184,13 +205,9 @@ server <- function(input, output, session) {
   output$definitionOutput = renderUI(definitionRe())
   output$exampleSentenceOutput = renderUI(sentenceRe())
   
-  # this doesn't work
-  output$playMusic = renderUI(soundRe())
-  
-  
   observeEvent(input$selectLevelOneWord, ignoreInit=TRUE, {
     
-    choice <- sample(1:10, 1)
+    choice <- sample(1:12, 1)
     
     wordChoice <- subset(tbl.config, index==choice & level=="one")$word
     wordRe(wordChoice)
@@ -213,7 +230,7 @@ server <- function(input, output, session) {
   
   observeEvent(input$selectLevelTwoWord, ignoreInit=TRUE, {
     
-    choice <- sample(1:10, 1)
+    choice <- sample(1:13, 1)
     
     wordChoice <- subset(tbl.config, index==choice & level=="two")$word
     wordRe(wordChoice)
@@ -236,7 +253,7 @@ server <- function(input, output, session) {
   
   observeEvent(input$selectLevelThreeWord, ignoreInit=TRUE, {
     
-    choice <- sample(1:10, 1)
+    choice <- sample(1:12, 1)
     
     wordChoice <- subset(tbl.config, index==choice & level=="three")$word
     wordRe(wordChoice)
@@ -257,14 +274,64 @@ server <- function(input, output, session) {
     sentenceRe(sentenceChoice)
   })
   
-  # This doesn't work
+  observeEvent(input$playCheers, {
+    removeUI("#currentSound")
+    insertUI(selector = "#playCheers",
+             where = "afterEnd",
+             ui = tags$audio(src = "www/applause.wav", 
+                             type = "audio/wav",
+                             preload = "metadata",
+                             autoplay = TRUE, 
+                             controls = NA, 
+                             style = "display:none;")
+    )
+  })
   
-  observeEvent(input$playCorrectSound, ignoreInit=TRUE, {
-    renderUI(
-      #selector="#playCorrectSound",
-      soundFile <- tags$audio(src="jive.mp3", type="aucio/mp3", autoplay=NA, controls=NA),
-      soundRe(soundFile),
-      print("button clicked")
+  observeEvent(input$playBoos, {
+    removeUI("#currentSound")
+    insertUI(selector = "#playBoos",
+             where = "afterEnd",
+             ui = tags$audio(src = "www/boo.mp3", 
+                             type = "audio/mp3", 
+                             autoplay = TRUE, 
+                             controls = NA, 
+                             style = "display:none;")
+    )
+  })
+  
+  observeEvent(input$playBillTell, {
+    removeUI("#currentSound")
+    insertUI(selector = "#playBillTell",
+             where = "afterEnd",
+             ui = tags$audio(src = "www/bill_tell.mp3", 
+                             type = "audio/mp3", 
+                             autoplay = TRUE, 
+                             controls = NA, 
+                             style = "display:none;")
+    )
+  })
+  
+  observeEvent(input$playHens, {
+    removeUI("#currentSound")
+    insertUI(selector = "#playHens",
+             where = "afterEnd",
+             ui = tags$audio(src = "www/hens.mp3", 
+                             type = "audio/mp3", 
+                             autoplay = TRUE, 
+                             controls = NA, 
+                             style = "display:none;")
+    )
+  })
+  
+  observeEvent(input$playStarWars, {
+    removeUI("#currentSound")
+    insertUI(selector = "#playStarWars",
+             where = "afterEnd",
+             ui = tags$audio(src = "www/star_wars.mp3", 
+                             type = "audio/mp3", 
+                             autoplay = TRUE, 
+                             controls = NA, 
+                             style = "display:none;")
     )
   })
 }

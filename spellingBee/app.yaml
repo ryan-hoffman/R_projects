@@ -90,6 +90,24 @@ words:
    level: one
    index: 10
    
+ - word: playwright
+   pronunciation: PLEY-rahyt
+   wordOrigin: Middle English
+   partOfSpeech: noun
+   definition: A writer of plays, dramatist.
+   sentence: The playwright attended the opening night performance of her work.
+   level: one
+   index: 11
+   
+ - word: fiery
+   pronunciation: Fahyuhr-ee
+   wordOrigin: Middle English
+   partOfSpeech: noun
+   definition: Characterized by or containing fire.
+   sentence: The blaze spread and the house quickly became a fiery inferno.
+   level: one
+   index: 12
+   
  - word: nauseous
    pronunciation: NAW-shuhs, NAW-zee-uhs
    wordOrigin: Latin
@@ -180,6 +198,33 @@ words:
    level: two
    index: 10
    
+ - word: fuchsia
+   pronunciation: FYOO-shuh
+   wordOrigin: Latin
+   partOfSpeech: noun
+   definition: A plant belonging to the genus fuchsia.
+   sentence: His potted fuchsia badly needed watering.
+   level: two
+   index: 11
+   
+ - word: maintenance
+   pronunciation: MEYN-tuh-nuhns
+   wordOrigin: Middle English
+   partOfSpeech: noun
+   definition: The act of maintaining; care or upkeep.
+   sentence: She was so handy, we nicknamed her the maintenance man.
+   level: two
+   index: 12
+   
+ - word: liaison
+   pronunciation: lee-EY-zawn 
+   wordOrigin: French
+   partOfSpeech: noun
+   definition: A contact or connection, usually a person
+   sentence: The spy had several liaisons within the government.
+   level: two
+   index: 13
+   
  - word: logorrhea
    pronunciation: law-guh-REE-uh
    wordOrigin: Greek
@@ -269,5 +314,24 @@ words:
    sentence: Her grandmother's knaidlach were the absolute best!
    level: three
    index: 10
+   
+ - word: elucubrate
+   pronunciation: ih-LOO-kyoo-breyt
+   wordOrigin: Latin
+   partOfSpeech: verb
+   definition: To produce (usually a literary work) by a long and intensive effort.
+   sentence: She would sequester herself away and elucubrate for a month whenever she had a deadline to meet.
+   level: three
+   index: 11
+   
+ - word: malfeasance
+   pronunciation: mal-FEE-zuhns
+   wordOrigin: Anglo-French
+   partOfSpeech: noun
+   definition: Wrongdoing by a public official.
+   sentence: The representative's malfeasance could not be ignored by the party leaders.
+   level: three
+   index: 12
+ 
    
    
