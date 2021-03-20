@@ -278,10 +278,10 @@ server <- function(input, output, session) {
     removeUI("#currentSound")
     insertUI(selector = "#playCheers",
              where = "afterEnd",
-             ui = tags$audio(src = "www/applause.wav", 
-                             type = "audio/wav",
-                             preload = "metadata",
-                             autoplay = TRUE, 
+             ui = tags$audio(src = "www/applause.mp3", 
+                             type = "audio/mp3",
+                             preload = "auto",
+                             autoplay = TRUE,
                              controls = NA, 
                              style = "display:none;")
     )

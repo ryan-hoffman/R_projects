@@ -1,0 +1,12 @@
+name: spellingBee
+title: spellingBee
+username:
+account: ryanhoffmanmusic
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 3514910
+bundleId: 4221745
+url: https://ryanhoffmanmusic.shinyapps.io/spellingBee/
+when: 1613317891.79913
+asMultiple: FALSE
+asStatic: FALSE

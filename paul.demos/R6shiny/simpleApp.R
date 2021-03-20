@@ -31,7 +31,7 @@ DemoApp = R6Class("DemoApp",
         #------------------------------------------------------------
         server = function(input, output, session){
 
-            printf("entering server")
+            print("entering server")
 
             observeEvent(input$wordSelector, ignoreInit=TRUE, {
                word <- isolate(input$wordSelector)
@@ -49,5 +49,5 @@ DemoApp = R6Class("DemoApp",
 #--------------------------------------------------------------------------------
 app <- DemoApp$new()
 x <- shinyApp(app$ui, app$server)
-runApp(x, port=1156)
+runApp(x, port=1158)
 
