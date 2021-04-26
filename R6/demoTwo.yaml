@@ -1,0 +1,19 @@
+wordList:
+
+ - word: misspell
+   partOfSpeech: verb
+   index: 1
+  
+ - word: pharaoh
+   partOfSpeech: noun
+   index: 2
+  
+ - word: weird
+   partOfSpeech: adjective
+   index: 3
+  
+ - word: bellwether
+   partOfSpeech: noun
+   index: 4
+
+
