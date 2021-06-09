@@ -198,27 +198,6 @@ ui <-
         tags$audio(id="sound_9", src="www/imperial_march.mp3", type="audio/mp3", preload="auto"),
         tags$audio(id="sound_10", src="www/fail_trombone.mp3", type="audio/mp3", preload="auto"),
         
-        # br(),
-        # br(),
-        # 
-        # actionButton("playCheers",
-        #              "Cheers"),
-        # br(),
-        # br(),
-        # actionButton("playBoos",
-        #              "Boos"),
-        # br(),
-        # br(),
-        # actionButton("playBillTell",
-        #              "Bill Tell"),
-        # br(),
-        # br(),
-        # actionButton("playHens",
-        #              "Hens"),
-        # br(),
-        # br(),
-        # actionButton("playStarWars",
-        #              "Disco Luke"),
       ),
     )
   )
@@ -317,54 +296,6 @@ server <- function(input, output, session) {
              ui = tags$audio(src = "www/applause.wav", 
                              type = "audio/wav",
                              preload = "metadata",
-                             autoplay = TRUE, 
-                             controls = NA, 
-                             style = "display:none;")
-    )
-  })
-  
-  observeEvent(input$playBoos, {
-    removeUI("#currentSound")
-    insertUI(selector = "#playBoos",
-             where = "afterEnd",
-             ui = tags$audio(src = "www/boo.mp3", 
-                             type = "audio/mp3", 
-                             autoplay = TRUE, 
-                             controls = NA, 
-                             style = "display:none;")
-    )
-  })
-  
-  observeEvent(input$playBillTell, {
-    removeUI("#currentSound")
-    insertUI(selector = "#playBillTell",
-             where = "afterEnd",
-             ui = tags$audio(src = "www/bill_tell.mp3", 
-                             type = "audio/mp3", 
-                             autoplay = TRUE, 
-                             controls = NA, 
-                             style = "display:none;")
-    )
-  })
-  
-  observeEvent(input$playHens, {
-    removeUI("#currentSound")
-    insertUI(selector = "#playHens",
-             where = "afterEnd",
-             ui = tags$audio(src = "www/hens.mp3", 
-                             type = "audio/mp3", 
-                             autoplay = TRUE, 
-                             controls = NA, 
-                             style = "display:none;")
-    )
-  })
-  
-  observeEvent(input$playStarWars, {
-    removeUI("#currentSound")
-    insertUI(selector = "#playStarWars",
-             where = "afterEnd",
-             ui = tags$audio(src = "www/star_wars.mp3", 
-                             type = "audio/mp3", 
                              autoplay = TRUE, 
                              controls = NA, 
                              style = "display:none;")
