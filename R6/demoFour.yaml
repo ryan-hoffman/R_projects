@@ -1,0 +1,427 @@
+wordList:
+
+ - word: vaccine
+   pronunciation: vak-SEEN
+   wordOrigin: New Latin
+   partOfSpeech: noun
+   definition: A product that stimulates a person's immune system to fight disease or infection.
+   exampleSentence: The oldest people exposed to the disease received the vaccine first.
+   level: one
+   index: 1
+   
+ - word: intelligent
+   pronunciation: in-TEL-i-juhnt
+   wordOrigin: Latin
+   partOfSpeech: adjective
+   definition: Having or showing intelligence; bright, clever, brilliant. 
+   exampleSentence: Her essay was intelligent, but not very concise.
+   level: one
+   index: 2
+   
+ - word: misspell
+   pronunciation: mis-SPEL
+   wordOrigin: Old English
+   partOfSpeech: verb
+   definition: To spell a word incorrectly.
+   exampleSentence: Some words are so easy to misspell!
+   level: one
+   index: 3
+   
+ - word: author 
+   pronunciation: AW-ther
+   wordOrigin: unknown
+   partOfSpeech: noun and verb
+   definition: A writer or creator, but usually refers to a writer of a book.
+   exampleSentence: The author signed copies of her book after the lecture.
+   level: one
+   index: 4
+   
+ - word: pharaoh
+   pronunciation: FAIR-oh
+   wordOrigin: Hebrew
+   partOfSpeech: noun
+   definition: A ruler of ancient Egypt.
+   exampleSentence: The pharaoh was buried in an extravagant tomb.
+   level: one
+   index: 5
+   
+ - word: separate
+   pronunciation: SEP-uh-reyt
+   wordOrigin: Latin
+   partOfSpeech: adjective or verb
+   definition: To divide or put apart.
+   exampleSentence: She divided the marbles put them into two separate bags.
+   level: one
+   index: 6
+   
+ - word: unnecessary
+   pronunciation: uhn-NES-uh-ser-ee
+   wordOrigin: Latin
+   partOfSpeech: adjective
+   definition: Not needed, superfluous.
+   exampleSentence: After the sun came out, our coats were unnecessary.
+   level: one
+   index: 7
+   
+ - word: liquefy
+   pronunciation: LIK-wuh-fahy
+   wordOrigin: Old French
+   partOfSpeech: verb
+   definition: A make into a liquid.
+   exampleSentence: Some metals will liquefy when heated to extreme temperatures.
+   level: one
+   index: 8
+   
+ - word: conscience
+   pronunciation: KON-shuhns
+   wordOrigin: Middle English
+   partOfSpeech: noun
+   definition: An inner sense of what is right or wrong.
+   exampleSentence: He had a guilty conscience and in the end, he turned himself in.
+   level: one
+   index: 9
+   
+ - word: broccoli
+   pronunciation: BROK-uh-lee, BROK-lee
+   wordOrigin: Italian
+   partOfSpeech: noun
+   definition: A green vegetable.
+   exampleSentence: Of all vegetables, she liked broccoli the least.
+   level: one
+   index: 10
+   
+ - word: playwright
+   pronunciation: PLEY-rahyt
+   wordOrigin: Middle English
+   partOfSpeech: noun
+   definition: A writer of plays, dramatist.
+   exampleSentence: The playwright attended the opening night performance of her work.
+   level: one
+   index: 11
+   
+ - word: fiery
+   pronunciation: Fahyuhr-ee
+   wordOrigin: Middle English
+   partOfSpeech: noun
+   definition: Characterized by or containing fire.
+   exampleSentence: The blaze spread and the house quickly became a fiery inferno.
+   level: one
+   index: 12
+   
+ - word: bellwether
+   pronunciation: BEL-weth-er
+   wordOrigin: Middle English
+   partOfSpeech: noun
+   definition: A gelded ram that leads the herd or a person or thing that assumes leadership.
+   exampleSentence: Paris is a bellwether for the fashion industry.
+   level: one
+   index: 13
+   
+ - word: cemetery
+   pronunciation: SEM-i-ter-ee
+   wordOrigin: Middle English
+   partOfSpeech: noun
+   definition: An area set aside for graves.
+   exampleSentence: Walking by the cemetery at night was always creepy, but moreso on Halloween night.
+   level: one
+   index: 14
+   
+ - word: bruise
+   pronunciation: BROOZ
+   wordOrigin: Middle English
+   partOfSpeech: noun or verb
+   definition: An injury that does not break the skin.
+   exampleSentence: I got a bruise on my knee when I fell down.
+   level: one
+   index: 15
+   
+ - word: consonant
+   pronunciation: KON-suh-nuhnt
+   wordOrigin: Latin
+   partOfSpeech: noun and adjective
+   definition: A type of letter; harmonius, as in music
+   exampleSentence: The two notes sound very consonant together.
+   level: one
+   index: 16
+   
+ - word: weird
+   pronunciation: WEERD
+   wordOrigin: Old English
+   partOfSpeech: adjective
+   definition: Strange, odd or bizarre
+   exampleSentence: The kids were alarmed by the weird sound.
+   level: one
+   index: 17
+   
+ - word: friend
+   pronunciation: FREND
+   wordOrigin: Old English
+   partOfSpeech: noun
+   definition: A person attached to another person by affection or personal regard
+   exampleSentence: She would often meet with a friend after work.
+   level: one
+   index: 18
+   
+ - word: camouflage
+   pronunciation: KAM-uh-flahzh
+   wordOrigin: Latin
+   partOfSpeech: noun, adjective or verb
+   definition: Concealment by means that alters or obscures the appearance
+   exampleSentence: The bird's drab plummage was excellent camouflage in the forest.
+   level: one
+   index: 19
+   
+ - word: nauseous
+   pronunciation: NAW-shuhs, NAW-zee-uhs
+   wordOrigin: Latin
+   partOfSpeech: adjective
+   definition: To feel sick, inclined to vomit.
+   exampleSentence: He felt nauseous after eating the rancid hummus.
+   level: two
+   index: 1
+   
+ - word: sherbet
+   pronunciation: SHUR-bit
+   wordOrigin: Persian
+   partOfSpeech: noun
+   definition: A frozen dessert made with fruit.
+   exampleSentence: When given the choice, she always chose sherbet for dessert.
+   level: two
+   index: 2
+   
+ - word: dilate
+   pronunciation: DAHY-leyt
+   wordOrigin: Middle French
+   partOfSpeech: verb
+   definition: To become or make more open.
+   exampleSentence: The doctor used a small flashlight to test if his pupils would dilate normally.
+   level: two
+   index: 3
+   
+ - word: gobbledegook
+   pronunciation: GOB-uhl-dee-gook
+   wordOrigin: Middle English
+   partOfSpeech: noun
+   definition: Nonsense or incoherent speech or writing.
+   exampleSentence: Even though he spent hours preparing the essay, it was for the most part, gobbledegook.
+   level: two
+   index: 4
+   
+ - word: accommodate
+   pronunciation: uh-COM-uh-deyt
+   wordOrigin: Latin
+   partOfSpeech: verb
+   definition: Provide for the wishes or needs of.
+   exampleSentence: She went way out of her way to accommodate her demanding mother-in-law.
+   level: two
+   index: 5
+   
+ - word: acknowledgment
+   pronunciation: ak-NOL-ij-muhnt
+   wordOrigin: Middle English
+   partOfSpeech: noun
+   definition: Recognition of the existence or truth of something.
+   exampleSentence: She was finally given acknowledgment for the work she had done for the organization.
+   level: two
+   index: 6
+   
+ - word: canteloupe
+   pronunciation: KAN-tuh-lohp
+   wordOrigin: French
+   partOfSpeech: noun
+   definition: A type of melon that is usually orange or yellow
+   exampleSentence: That canteloupe we bought at the farmer's market sure was good!
+   level: two
+   index: 7
+   
+ - word: chassis
+   pronunciation: CHAS-ee
+   wordOrigin: French
+   partOfSpeech: noun
+   definition: The frame, wheels and machinery of a motor vehicle.
+   exampleSentence: The engine was shot, but the chassis was still in good condition.
+   level: two
+   index: 8
+   
+ - word: continuum
+   pronunciation: kuhn-TIN-yoo-uhm
+   wordOrigin: Latin
+   partOfSpeech: noun
+   definition: A continuous extent, series or whole.
+   exampleSentence: She had always been facsinated by the space time continuum and secretly believed that time travel was possible.
+   level: two
+   index: 9
+   
+ - word: hemorrhage
+   pronunciation: HEM-er-ij, HEM-rij
+   wordOrigin: Latin
+   partOfSpeech: noun
+   definition: The occurrance of bleeding.
+   exampleSentence: The patient suffered a cerebral hemorrhage.
+   level: two
+   index: 10
+   
+ - word: fuchsia
+   pronunciation: FYOO-shuh
+   wordOrigin: Latin
+   partOfSpeech: noun
+   definition: A plant belonging to the genus fuchsia.
+   exampleSentence: His fuchsia needed watering badly.
+   level: two
+   index: 11
+   
+ - word: maintenance
+   pronunciation: MEYN-tuh-nuhns
+   wordOrigin: Middle English
+   partOfSpeech: noun
+   definition: The act of maintaining; care or upkeep.
+   exampleSentence: She was so handy, we nicknamed her "the maintenance man".
+   level: two
+   index: 12
+   
+ - word: liaison
+   pronunciation: lee-EY-zawn 
+   wordOrigin: French
+   partOfSpeech: noun
+   definition: A contact or connection, usually a person
+   exampleSentence: The spy had several liaisons within the government.
+   level: two
+   index: 13
+   
+ - word: maneuver
+   pronunciation: MAN-noo-ver
+   wordOrigin: Latin
+   partOfSpeech: noun or verb
+   definition: A planned movement; to manipulate a situation.
+   exampleSentence: The troop practiced the maneuver until the general was satisfied with their progress.
+   level: two
+   index: 14
+   
+ - word: irascible
+   pronunciation: ih-RAS-uh-buhl
+   wordOrigin: Middle English
+   partOfSpeech: adjective
+   definition: Easily provoked to anger, very irritable.
+   exampleSentence: Everyone avoided talking about politics with the irascible old man.
+   level: two
+   index: 15
+   
+ - word: consecutive
+   pronunciation: kohn-SEK-yuh-tiv
+   wordOrigin: Latin
+   partOfSpeech: adjective
+   definition: Following one after another in uninterrupted succession
+   exampleSentence: She finally gave up after five consecutive failed attempts to cook scrambled eggs without burning them.
+   level: one
+   index: 16
+   
+ - word: logorrhea
+   pronunciation: law-guh-REE-uh
+   wordOrigin: Greek
+   partOfSpeech: noun
+   definition: Excessively verbose in speech.
+   exampleSentence: His tendency towards logorrhea did not help him in the debate.
+   level: three
+   index: 1
+   
+ - word: cymotrichous
+   pronunciation: sahy-MO-truh-kuhs
+   wordOrigin: Greek
+   partOfSpeech: adjective
+   definition: Having wavy hair
+   exampleSentence: That particular group of people is known to be cymotrichous.
+   level: three
+   index: 2
+   
+ - word: euonym
+   pronunciation: YOO-oh-nim
+   wordOrigin: Greek
+   partOfSpeech: noun
+   definition: A particularly apt name
+   exampleSentence: After learning about the species, I've decided that "killer whale" is not an appropriate euonym at all.
+   level: three
+   index: 3
+   
+ - word: vivisepulture
+   pronunciation: VIV-i-suh-puhl-cher
+   wordOrigin: Latin
+   partOfSpeech: noun
+   definition: The act of being buried alive.
+   exampleSentence: The anthropologists suspected vivisepulture had occurred when they observed fingernail scratches on the underside of the casket lid.
+   level: three
+   index: 4
+   
+ - word: prospicience
+   pronunciation: PROH-spi-shee-uhns
+   wordOrigin: Latin
+   partOfSpeech: noun
+   definition: The act of looking forward, foresight.
+   exampleSentence: If the captain would have had more prospicience, he might have seen the mutiny coming.
+   level: three
+   index: 5
+   
+ - word: eudaemonic
+   pronunciation: yoo-di-MON-ik
+   wordOrigin: Greek
+   partOfSpeech: adjective
+   definition: Pertaining or conducive to happiness.
+   exampleSentence: In the film, the aliens had an eerie eudaemonic air.
+   level: three
+   index: 6
+   
+ - word: gnomonic
+   pronunciation: nom-MON-ik
+   wordOrigin: Latin and Greek
+   partOfSpeech: noun
+   definition: Of or relating to a sundial or gnomon.
+   exampleSentence: A straight line drawn on a gnomonic chart would be a circle track.
+   level: three
+   index: 7
+   
+ - word: synecdoche
+   pronunciation: si-NEK-duh-kee
+   wordOrigin: Latin
+   partOfSpeech: noun
+   definition: A figure of speech which a part of something represents the whole.
+   exampleSentence: My wheels, when used to represent one's car, is an example of synecdoche.
+   level: three
+   index: 8
+   
+ - word: psoriasis
+   pronunciation: suh-RAHY-uh-sis
+   wordOrigin: Greek
+   partOfSpeech: noun
+   definition: A common chronic, inflammatory skin disease.
+   exampleSentence: His psoriasis really became profound in his old age.
+   level: three
+   index: 9
+   
+ - word: knaidlach
+   pronunciation: KNEYD-luhkh
+   wordOrigin: Middle German
+   partOfSpeech: noun
+   definition: A Yiddish dumpling, usually served in soup.
+   exampleSentence: Her grandmother's knaidlach were the absolute best!
+   level: three
+   index: 10
+   
+ - word: elucubrate
+   pronunciation: ih-LOO-kyoo-breyt
+   wordOrigin: Latin
+   partOfSpeech: verb
+   definition: To produce (usually a literary work) by a long and intensive effort.
+   exampleSentence: She would sequester herself away and elucubrate for a month whenever she had a deadline to meet.
+   level: three
+   index: 11
+   
+ - word: malfeasance
+   pronunciation: mal-FEE-zuhns
+   wordOrigin: Anglo-French
+   partOfSpeech: noun
+   definition: Wrongdoing by a public official.
+   exampleSentence: The representative's malfeasance could not be ignored by the party leaders.
+   level: three
+   index: 12
+ 
+   
+   
